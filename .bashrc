@@ -88,7 +88,7 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:/home/ivanfefer/go/bin
+export PATH=$PATH:$HOME/go/bin
 
 # some more ls aliases
 alias ll='ls -alF'

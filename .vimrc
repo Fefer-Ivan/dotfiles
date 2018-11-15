@@ -20,7 +20,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'vim-scripts/a.vim'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'oblitum/YouCompleteMe', { 'do': './install.py --clang-completer' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --go-completer' }
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 Plug 'tpope/vim-abolish'
 Plug 'fatih/vim-go'
@@ -28,3 +28,6 @@ call plug#end()
 
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeMapOpenInTab='C-t'
+
+let g:ycm_keep_logfiles = 1
+let g:ycm_log_level = 'debug'

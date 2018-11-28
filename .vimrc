@@ -10,6 +10,7 @@ set wildmode=longest,list
 set wildmenu
 set hlsearch
 set colorcolumn=101
+set tabpagemax=30
 
 autocmd BufWritePre *.cpp :%s/\s\+$//e
 autocmd BufWritePre *.h :%s/\s\+$//e
@@ -29,5 +30,6 @@ call plug#end()
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeMapOpenInTab='C-t'
 
+let g:ycm_confirm_extra_conf = 0
 let g:ycm_keep_logfiles = 1
 let g:ycm_log_level = 'debug'

@@ -123,5 +123,4 @@ fi
 eval $(thefuck --alias)
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-export KUBECONFIG=$HOME/admin.conf
 source <(kubectl completion bash)

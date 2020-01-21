@@ -10,7 +10,7 @@ set wildmode=longest,list
 set wildmenu
 set hlsearch
 set colorcolumn=101
-set tabpagemax=30
+set tabpagemax=300
 
 autocmd BufWritePre *.cpp :%s/\s\+$//e
 autocmd BufWritePre *.h :%s/\s\+$//e
@@ -22,7 +22,6 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'vim-scripts/a.vim'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'Valloric/YouCompleteMe', { 'do': 'python3 install.py --clangd-completer --go-completer' }
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 Plug 'tpope/vim-abolish'
 Plug 'fatih/vim-go'
 call plug#end()

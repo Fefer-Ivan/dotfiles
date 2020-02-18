@@ -1,3 +1,5 @@
+export LC_ALL=en_US.UTF-8
+
 alias ll='ls -alF'
 alias vim='vim -p'
 

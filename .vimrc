@@ -1,16 +1,17 @@
-set background=dark
-set expandtab
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
 set autoindent
-set number
+set background=dark
+set backspace=indent,eol,start
 set cino=N-s,g0,+2s,l-s,i2s
-set wildmode=longest,list
-set wildmenu
-set hlsearch
 set colorcolumn=101
+set expandtab
+set hlsearch
+set number
+set shiftwidth=2
+set softtabstop=2
 set tabpagemax=300
+set tabstop=2
+set wildmenu
+set wildmode=longest,list
 
 autocmd BufWritePre *.cpp :%s/\s\+$//e
 autocmd BufWritePre *.h :%s/\s\+$//e

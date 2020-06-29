@@ -23,7 +23,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'vim-scripts/a.vim'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'Valloric/YouCompleteMe', { 'do': 'python3 install.py --clangd-completer --go-completer --ts-completer' }
+Plug 'ycm-core/YouCompleteMe', { 'do': 'python3 install.py --clangd-completer --go-completer --ts-completer' }
 Plug 'tpope/vim-abolish'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'airblade/vim-gitgutter'

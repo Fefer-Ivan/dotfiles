@@ -32,6 +32,7 @@ call plug#end()
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeMapOpenInTab='C-t'
 
+map gy :YcmCompleter GoToImprecise<CR>
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_keep_logfiles = 1
 let g:ycm_log_level = 'debug'
